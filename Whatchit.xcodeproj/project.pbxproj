@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6567041022CFBBA600F74919 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6567040F22CFBBA600F74919 /* MovieController.swift */; };
+		657ACA4922CF6D47002B6163 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657ACA4822CF6D47002B6163 /* MovieTableViewCell.swift */; };
+		657ACA4E22CFB735002B6163 /* AddMovieFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657ACA4D22CFB735002B6163 /* AddMovieFormViewController.swift */; };
+		65A268C522D2268D00159469 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A268C422D2268D00159469 /* Constants.swift */; };
+		65A268C722D3611300159469 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A268C622D3611200159469 /* KeyboardLayoutConstraint.swift */; };
 		65DD33C722CCFAE30004E671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD33C622CCFAE30004E671 /* AppDelegate.swift */; };
 		65DD33C922CCFAE30004E671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD33C822CCFAE30004E671 /* ViewController.swift */; };
 		65DD33CC22CCFAE30004E671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD33CA22CCFAE30004E671 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		65DD33D122CCFAE40004E671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DD33CF22CCFAE40004E671 /* LaunchScreen.storyboard */; };
 		65DD33DC22CCFAE40004E671 /* WhatchitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD33DB22CCFAE40004E671 /* WhatchitTests.swift */; };
 		65DD33E722CCFAE40004E671 /* WhatchitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD33E622CCFAE40004E671 /* WhatchitUITests.swift */; };
+		65DD33F622CD092A0004E671 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD33F522CD092A0004E671 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6567040F22CFBBA600F74919 /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		657ACA4822CF6D47002B6163 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		657ACA4D22CFB735002B6163 /* AddMovieFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieFormViewController.swift; sourceTree = "<group>"; };
+		65A268C422D2268D00159469 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		65A268C622D3611200159469 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
 		65DD33C322CCFAE30004E671 /* Whatchit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whatchit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DD33C622CCFAE30004E671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DD33C822CCFAE30004E671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		65DD33E222CCFAE40004E671 /* WhatchitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatchitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DD33E622CCFAE40004E671 /* WhatchitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatchitUITests.swift; sourceTree = "<group>"; };
 		65DD33E822CCFAE40004E671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DD33F522CD092A0004E671 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6567040E22CFBB8E00F74919 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6567040F22CFBBA600F74919 /* MovieController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		657ACA4722CF6D13002B6163 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				657ACA4822CF6D47002B6163 /* MovieTableViewCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		657ACA4A22CF8FCC002B6163 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				65DD33C822CCFAE30004E671 /* ViewController.swift */,
+				657ACA4D22CFB735002B6163 /* AddMovieFormViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		65A268C322D2267D00159469 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				65A268C622D3611200159469 /* KeyboardLayoutConstraint.swift */,
+				65A268C422D2268D00159469 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		65DD33BA22CCFAE20004E671 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +143,12 @@
 		65DD33C522CCFAE30004E671 /* Whatchit */ = {
 			isa = PBXGroup;
 			children = (
+				65A268C322D2267D00159469 /* Utilities */,
+				6567040E22CFBB8E00F74919 /* Controllers */,
+				657ACA4722CF6D13002B6163 /* TableCells */,
+				65DD33F422CD09160004E671 /* Models */,
+				657ACA4A22CF8FCC002B6163 /* ViewControllers */,
 				65DD33C622CCFAE30004E671 /* AppDelegate.swift */,
-				65DD33C822CCFAE30004E671 /* ViewController.swift */,
 				65DD33CA22CCFAE30004E671 /* Main.storyboard */,
 				65DD33CD22CCFAE40004E671 /* Assets.xcassets */,
 				65DD33CF22CCFAE40004E671 /* LaunchScreen.storyboard */,
@@ -123,6 +173,14 @@
 				65DD33E822CCFAE40004E671 /* Info.plist */,
 			);
 			path = WhatchitUITests;
+			sourceTree = "<group>";
+		};
+		65DD33F422CD09160004E671 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65DD33F522CD092A0004E671 /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6567041022CFBBA600F74919 /* MovieController.swift in Sources */,
 				65DD33C922CCFAE30004E671 /* ViewController.swift in Sources */,
 				65DD33C722CCFAE30004E671 /* AppDelegate.swift in Sources */,
+				657ACA4922CF6D47002B6163 /* MovieTableViewCell.swift in Sources */,
+				65A268C522D2268D00159469 /* Constants.swift in Sources */,
+				65A268C722D3611300159469 /* KeyboardLayoutConstraint.swift in Sources */,
+				65DD33F622CD092A0004E671 /* Movie.swift in Sources */,
+				657ACA4E22CFB735002B6163 /* AddMovieFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
